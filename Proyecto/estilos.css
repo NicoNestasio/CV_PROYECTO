@@ -1,14 +1,27 @@
 
 body{
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0A2647;
+    color: #EBEBEB;
+    font-family: clearsans,lucida grande,lucida sans unicode,lucida sans,sans-serif;
 }
 .circular {
+    border: solid;
     border-radius: 50%;
+    border-color: #EBEBEB;
+    border-width: 5px;
   }
 
+#costado{
+  background-color: #2C74B3 ;
+}
+#foto{
+  background-color:  #2C74B3 ;
+  align: center;
+}
 #name{
-  background-color: darkslateblue;
+  background-color: #144272;
+}
+#info{
+  background-color:;
 }
 @import "../node_modules/bootstrap/scss/bootstrap";
