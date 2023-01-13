@@ -4,6 +4,9 @@ body{
     color: #EBEBEB;
     font-family: clearsans,lucida grande,lucida sans unicode,lucida sans,sans-serif;
 }
+#cuerpo{
+  width: 65%;
+}
 .circular {
     border: solid;
     border-radius: 50%;
@@ -12,16 +15,28 @@ body{
   }
 
 #costado{
-  background-color: #2C74B3 ;
+  background-color: #144272 ;
 }
 #foto{
   background-color:  #2C74B3 ;
-  align: center;
+
 }
+
+img {
+  margin: auto;
+  display: block;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  }
 #name{
   background-color: #144272;
+  text-align: center;
 }
-#info{
-  background-color:;
+h3{
+  margin-top:16px;
+}
+.display-3{
+  margin-top: 16px;
 }
 @import "../node_modules/bootstrap/scss/bootstrap";
