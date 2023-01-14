@@ -1,11 +1,13 @@
 
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap);
 body{
-    background-color: #0A2647;
+    background-color: #160c48;
     color: #EBEBEB;
-    font-family: clearsans,lucida grande,lucida sans unicode,lucida sans,sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
 }
 #cuerpo{
-  width: 65%;
+  width: 60%;
 }
 .circular {
     border: solid;
@@ -15,11 +17,14 @@ body{
   }
 
 #costado{
-  background-color: #144272 ;
+  background-color: #4344e5 ;
 }
 #foto{
-  background-color:  #2C74B3 ;
+  background-color:  #EBEBEB ;
 
+}
+#info{
+  background-color: #202076;
 }
 
 img {
@@ -30,13 +35,30 @@ img {
   width: 100%;
   }
 #name{
-  background-color: #144272;
+  background-color: #5e5ee6;
   text-align: center;
 }
 h3{
   margin-top:16px;
+  font-weight:10;
+  color: #8b8bed;
+  font-size-adjust:
 }
 .display-3{
   margin-top: 16px;
 }
+.derecha{
+  font-weight:light;
+  color: #16c79e;
+}
+#encabezado{
+  text-decoration: underline ;
+  font-weight: 900;
+}
+#navbarToggleExternalContent{
+  position: fixed;
+  z-index: 100;
+  margin-top: 50px;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
