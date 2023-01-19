@@ -42,7 +42,6 @@ h3{
   margin-top:16px;
   font-weight:10;
   color: #8b8bed;
-  font-size-adjust:
 }
 .display-3{
   margin-top: 16px;
@@ -50,6 +49,7 @@ h3{
 .derecha{
   font-weight:light;
   color: #16c79e;
+  font-size: 2vw;
 }
 #encabezado{
   text-decoration: underline ;
@@ -60,5 +60,24 @@ h3{
   z-index: 100;
   margin-top: 50px;
 }
-
+#Nombre{
+  font-weight: 900;
+}
+@media only screen and (max-width: 400px) {
+  #cuerpo{
+    width: 100%;
+    padding: 0px;
+  }
+  #imagen{
+    width: 100%;
+    height: 300px;
+    border-radius: 0%!important;
+  }
+  #foto{
+    padding: 0px;
+  }
+  .derecha{
+    font-size: calc(1.3rem + .6vw);
+  }
+}
 @import "../node_modules/bootstrap/scss/bootstrap";
