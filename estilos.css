@@ -1,0 +1,97 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap);
+body{
+    background-color: #160c48;
+    color: #EBEBEB;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+#cuerpo{
+  width: 60%;
+}
+.circular {
+    border: solid;
+    border-radius: 50%;
+    border-color: #EBEBEB;
+    border-width: 5px;
+  }
+
+#costado{
+  background-color: #4344e5 ;
+}
+#foto{
+  background-color:  #EBEBEB ;
+
+}
+#info{
+  background-color: #202076;
+}
+
+img {
+  margin: auto;
+  display: block;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  }
+#name{
+  background-color: #5e5ee6;
+  text-align: center;
+}
+h3{
+  margin-top:16px;
+  font-weight:10;
+  color: #8b8bed;
+}
+.display-3{
+  margin-top: 16px;
+}
+.derecha{
+  font-weight:light;
+  color: #16c79e;
+  font-size: 2vw;
+}
+#encabezado{
+  text-decoration: underline ;
+  font-weight: 900;
+}
+#navbarToggleExternalContent{
+  position: fixed;
+  z-index: 100;
+  margin-top: 50px;
+}
+#Nombre{
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 400px) {
+  #cuerpo{
+    width: 100%;
+    padding: 0px;
+  }
+  #imagen{
+    width: 100%;
+    height: 300px;
+    border-radius: 0%!important;
+  }
+  #foto{
+    padding: 0px;
+  }
+  .derecha{
+    font-size: calc(1.3rem + .6vw);
+  }
+}
+@media only screen and (max-width: 992px){
+  #imagen{
+    width: 100%;
+    height: 300px;
+    border-radius: 0%!important;
+  }
+  #foto{
+    padding: 0px;
+  }
+  .derecha{
+    font-size: calc(1.3rem + .6vw);
+  }
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
