@@ -39,8 +39,8 @@ img {
 }
 h3{
   margin-top:16px;
-  font-weight:10;
   color: #8b8bed;
+
 }
 .display-3{
   margin-top: 16px;
@@ -66,19 +66,38 @@ h3{
   float: left!important;
   background-color: #EBEBEB;
   border-radius: 50%;
+  visibility: visible!important;
 }
 .titulo{
   right: +100px;
   padding: 10px;
   background-color: #4344e5;
   right: 100px;
-  border-radius: 35%;
+  border-radius: 10%;
+}
+#fila{
+  visibility: hidden;
+}
+#fila:hover{
+  visibility: visible;
 }
 .p-3{
   width:200px;
 }
 .icono:hover{
   background-color: #5e5ee6;
+}
+
+footer{
+  margin-top: 100px;
+  padding-top: 5px;
+  padding-bottom: 100px;
+  background-color: #5e5ee6;
+  
+}
+.pie{
+  font-size: small;
+  margin-bottom: 0px;
 }
 @media only screen and (max-width: 400px) {
   #cuerpo{

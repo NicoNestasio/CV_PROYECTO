@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="estilos.css" rel="stylesheet">
+    <script src="function.js"></script>
     <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Currículum vitae</title>
 </head>
-<body>
+<body>  
       <nav class="navbar navbar-dark sticky-top">
         <div class="container-fluid">
           <button class="navbar-toggler" style="background-color: #b8aec3;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,13 +21,21 @@
       </nav>
       <div class="collapse sticky-top" id="navbarToggleExternalContent">
         <div class="p-3">
-          <a class="dropdown-item" href="#personal"><lord-icon class="icono" src="https://cdn.lordicon.com/dxjqoygy.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon><div class="titulo">Personal</div></a>
+          <div class="row" id="fila"><div class="col-3"><a href="#personal"><lord-icon class="icono" src="https://cdn.lordicon.com/dxjqoygy.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></div></a><div class="col-9"><div class="titulo">Personal</div></div></div>
+          <div class="row" id="fila"><div class="col-3"><a href="#formacion"><lord-icon class="icono" src="https://cdn.lordicon.com/wxnxiano.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></div></a><div class="col-9"><div class="titulo">Formación</div></div></div>
+          <div class="row" id="fila"><div class="col-3"><a href="#experiencias"><lord-icon class="icono" src="https://cdn.lordicon.com/fhtaantg.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></div></a><div class="col-9"><div class="titulo">Experiencia</div></div></div>
+          <div class="row" id="fila"><div class="col-3"><a href="#idiomas"><lord-icon class="icono" src="https://cdn.lordicon.com/zpxybbhl.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></div></a><div class="col-9"><div class="titulo">Idiomas</div></div></div>
+          <div class="row" id="fila"><div class="col-3"><a href="#cursos"><lord-icon class="icono" src="https://cdn.lordicon.com/wloilxuq.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></div></a><div class="col-9"><div class="titulo">Cursos</div></div></div>
+          <div class="row" id="fila"><div class="col-3"><a href="#adicional"><lord-icon class="icono" src="https://cdn.lordicon.com/mdgrhyca.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></a></div><div class="col-9"><div class="titulo">Adicional</div></div></div>
+        </div>
+       <!--<div class="p-3">
+          <a class="dropdown-item" href="#personal"><lord-icon class="icono" src="https://cdn.lordicon.com/dxjqoygy.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></a>
           <a class="dropdown-item" href="#formacion"><lord-icon class="icono" src="https://cdn.lordicon.com/wxnxiano.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></a>
           <a class="dropdown-item" href="#experiencias"><lord-icon class="icono" src="https://cdn.lordicon.com/fhtaantg.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></a>
           <a class="dropdown-item" href="#idiomas"><lord-icon class="icono" src="https://cdn.lordicon.com/zpxybbhl.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></a>
           <a class="dropdown-item" href="#cursos"><lord-icon class="icono" src="https://cdn.lordicon.com/wloilxuq.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></a>
           <a class="dropdown-item" href="#adicional"><lord-icon class="icono" src="https://cdn.lordicon.com/mdgrhyca.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></a>
-        </div>
+        </div>-->
       </div>
     <div class="container" id="cuerpo">
         <div class="container text-center"><p class="display-4" id="encabezado">Curriculum Vitae Online</p></div>
@@ -53,6 +62,9 @@
         </div>
       </div>
     </div>
-    <script></script>
+    <footer>
+      <p class="pie">Página creada por Facundo Nicolás Nestasio</p>
+      <p class="pie">mail: niconesta66@gmail.com</p>
+    </footer>
 </body>
 </html>
