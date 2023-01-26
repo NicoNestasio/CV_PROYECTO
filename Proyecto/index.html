@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="estilos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/19cc4750b6.js" crossorigin="anonymous"></script>
     <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Currículum vitae</title>
@@ -33,27 +34,29 @@
     <div class="container">
         <div class="row">
           <div class="col-lg-8" id="name"><p class="display-3" id="nombre"></p>
-            <p class="display-3" id="apellido"></p></div>
+            <p class="display-3" id="apellido"></p>
+            <p><button id="boton" type="button" class="btn btn-dark"><i class="fa-sharp fa-solid fa-paint-roller"></i></button></p></div>
           <div class="col-lg-4" id="foto"><img class="rounded-circle" id="imagen" src="" alt="No funciona la imagen"></div>
         </div>
     </div>
       <div class="container text-left" id="info">
         <div class="row">
-            <div class="col-lg-8"><h3 id="personal"><lord-icon src="https://cdn.lordicon.com/dxjqoygy.json" trigger="morph" colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"> </lord-icon>PERSONAL</h3>
+            <div class="col-lg-8" id="c1"><h3 id="personal"><lord-icon src="https://cdn.lordicon.com/dxjqoygy.json" trigger="morph" colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"> </lord-icon>PERSONAL</h3>
                 <p id="infop"></p>
                 <h3 id="formacion"><lord-icon src="https://cdn.lordicon.com/wxnxiano.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon>FORMACIÓN</h3>
                 <li>Secundario superior finalizado </li>
                 <li>Ingeniería Técnica en Informática de Sistemas en Universidad Complutense de Madrid (2012-2015). </li>
                 <h3 id="experiencias"><lord-icon src="https://cdn.lordicon.com/fhtaantg.json" trigger="morph" colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon>EXPERIENCIAS</h3>
-                <p>Programador Web</p>
-                <p>Banco Santander</p>
-                <p>Agosto 2017 – Diciembre 2019</p>
+                <p class="trabajos">Programador Web</p>
+                <p class="trabajos">Banco Santander</p>
+                <p class="trabajos">Agosto 2017 – Diciembre 2019</p>
                 <li>Escribí el código una página web con la capacidad de recibir a más de un millón de usuarios diariamente.</li>
                 <li>Responsable de crear un comparador de tarjetas de crédito que elevó las ventas de producto en un 15%.</li>
                 <li>Desarrollé una aplicación bancaria especializada en seguros de auto la cual recibió una calificación de 4.8 estrellas.</li>
-                <p>Desarrollador Web</p>
-                <p>Flame Analytics</p>
-                <p>Enero 2016 - Agosto 2017</p>
+                <p></p>
+                <p class="trabajos">Desarrollador Web</p>
+                <p class="trabajos">Flame Analytics</p>
+                <p class="trabajos">Enero 2016 - Agosto 2017</p>
                 <li>A lo largo de mi estancia, participé en más de 15 proyectos digitales y colaboré con un equipo de diseñadores, copywriters creativos, project managers y Q&A testers.</li>
                 <li>Reduje el porcentaje de errores mensuales de la página de inicio del portal de la compañía en un 10%.</li>
                 <li>Como parte del comité de mejoras continuas de la empresa, colaboré para optimizar los tiempos de carga de la página web en un 15%.</li>
@@ -69,8 +72,11 @@
                 <li>Permiso de conducir B y auto propio</li>
                 <li>Disponibilidad inmediata</li>
             </div>
-            <div class="col-lg-4" id="costado"><h3 class="derecha">CONTACTO</h3>
-                <h3 class="derecha">REFERENCIAS</h3>
+            <div class="col-lg-4" id="costado"><h4 class="derecha">CONTACTO</h4>
+              <p><i class="fa-solid fa-envelope" id="contacto"></i>  <span class="pder" id="email"></span></p>
+              <p><i class="fa-solid fa-phone" id="contacto"></i>  <span class="pder" id="cel"></span></p>
+                <h4 class="derecha">REFERENCIAS</h4>
+                <li class="pder" >José Sosa (Ex Jefe): 1157974533</li>
             </div>
         </div>
       </div>
