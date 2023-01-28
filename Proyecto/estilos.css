@@ -8,11 +8,9 @@ body{
 #cuerpo{
   width: 65%;
 }
-.circular {
-    border: solid;
-    border-radius: 50%;
-    border-color: #EBEBEB;
-    border-width: 5px;
+a{
+  color:#160c48;
+  font-weight: bold;
 }
 #c1{
   padding-left: 20px;
@@ -48,6 +46,7 @@ img {
 #name{
   background-color: #5e5ee6;
   text-align: center;
+  position: relative;
 }
 h3{
   margin-top:16px;
@@ -109,6 +108,17 @@ footer{
   padding-bottom: 100px;
   background-color: #5e5ee6;
   
+}
+#infop{
+  display: none;
+}
+#hide{
+  margin-left: 5%;
+}
+#boton{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
 .pie{
   font-size: small;

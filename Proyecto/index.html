@@ -11,7 +11,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Currículum vitae</title>
 </head>
-<body>  
+<body>
+  <!--Menú de Navegación-->  
       <nav class="navbar navbar-dark sticky-top">
         <div class="container-fluid">
           <button class="navbar-toggler" style="background-color: #b8aec3;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,22 +30,27 @@
           <div class="row" id="fila"><div class="col-3"><a href="#adicional"><lord-icon class="icono" src="https://cdn.lordicon.com/mdgrhyca.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon></a></div><div class="col-9"><div class="titulo">Adicional</div></div></div>
         </div>
       </div>
+    <!--Cuerpo-->
     <div class="container" id="cuerpo">
-        <div class="container text-center"><p class="display-4" id="encabezado">Curriculum Vitae Online</p></div>
+    <!--Header-->
+        <div class="container text-center"><header class="display-4" id="encabezado">Curriculum Vitae Online</header></div>
+    <!--Nombre y Foto-->
     <div class="container">
         <div class="row">
           <div class="col-lg-8" id="name"><p class="display-3" id="nombre"></p>
             <p class="display-3" id="apellido"></p>
-            <p><button id="boton" type="button" class="btn btn-dark"><i class="fa-sharp fa-solid fa-paint-roller"></i></button></p></div>
+            <button id="boton" type="button" class="btn btn-light"><i class="fa-sharp fa-solid fa-paint-roller"></i></button>
+          </div>
           <div class="col-lg-4" id="foto"><img class="rounded-circle" id="imagen" src="" alt="No funciona la imagen"></div>
         </div>
     </div>
+    <!--Contenido-->
       <div class="container text-left" id="info">
         <div class="row">
-            <div class="col-lg-8" id="c1"><h3 id="personal"><lord-icon src="https://cdn.lordicon.com/dxjqoygy.json" trigger="morph" colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"> </lord-icon>PERSONAL</h3>
+            <div class="col-lg-8" id="c1"><h3 id="personal"><lord-icon src="https://cdn.lordicon.com/dxjqoygy.json" trigger="morph" colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"> </lord-icon>PERSONAL<button id="hide" type="button" class="btn btn-light"><i id="ojo" class="fa-regular fa-eye-slash"></i></button></h3>
                 <p id="infop"></p>
                 <h3 id="formacion"><lord-icon src="https://cdn.lordicon.com/wxnxiano.json" trigger="morph"  colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon>FORMACIÓN</h3>
-                <li>Secundario superior finalizado </li>
+                <li>Secundario superior finalizado. </li>
                 <li>Ingeniería Técnica en Informática de Sistemas en Universidad Complutense de Madrid (2012-2015). </li>
                 <h3 id="experiencias"><lord-icon src="https://cdn.lordicon.com/fhtaantg.json" trigger="morph" colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon>EXPERIENCIAS</h3>
                 <p class="trabajos">Programador Web</p>
@@ -66,12 +72,13 @@
                 <h3 id="cursos"><lord-icon src="https://cdn.lordicon.com/wloilxuq.json" trigger="morph" colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon>CURSOS</h3>
                 <li>Introducción a Front-End por Argentina Programa 4.0.</li>
                 <h3 id="adicional"><lord-icon src="https://cdn.lordicon.com/mdgrhyca.json" trigger="morph" colors="primary:#16c79e,secondary:#a39cf4" style="width:50px;height:50px"></lord-icon>ADICIONAL</h3>
-                <li>Dominio de PHP, MySQL, HTML5, CSS3 y Javascript</li>
-                <li>Capacidad de liderazgo y trabajo en equipo</li>
-                <li>Conocimiento de las bases de datos MySQL, PostgreSQL</li>
-                <li>Permiso de conducir B y auto propio</li>
+                <li>Dominio de PHP, MySQL, HTML5, CSS3 y Javascript.</li>
+                <li>Capacidad de liderazgo y trabajo en equipo.</li>
+                <li>Conocimiento de las bases de datos MySQL, PostgreSQL.</li>
+                <li>Permiso de conducir B y auto propio.</li>
                 <li>Disponibilidad inmediata</li>
             </div>
+            <!--Contenido Derecha-->
             <div class="col-lg-4" id="costado"><h4 class="derecha">CONTACTO</h4>
               <p><i class="fa-solid fa-envelope" id="contacto"></i>  <span class="pder" id="email"></span></p>
               <p><i class="fa-solid fa-phone" id="contacto"></i>  <span class="pder" id="cel"></span></p>
@@ -81,9 +88,12 @@
         </div>
       </div>
     </div>
+    <!--Footer-->
     <footer>
-      <p class="pie">Página creada por Facundo Nicolás Nestasio</p>
+      <p class="pie">Página creada por Facundo Nicolás Nestasio.</p>
       <p class="pie">mail: niconesta66@gmail.com</p>
+      <p class="pie">Aclaración: La información fue extraída de la API Random User Generator y de la siguiente <a href="https://zety.es/blog/curriculum-programador">página</a>.</p>
+
     </footer>
     <script src="function.js"></script>
 </body>
