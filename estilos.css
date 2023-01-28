@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap);
+body{
+    background-color: #160c48;
+    color: #EBEBEB;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+#cuerpo{
+  width: 65%;
+}
+a{
+  color:#160c48;
+  font-weight: bold;
+}
+#c1{
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+.trabajos{
+  font-weight: bold;
+}
+#contacto{
+  font-size: 25px;
+}
+
+#costado{
+  background-color: #4344e5 ;
+
+}
+
+#foto{
+  background-color:  #EBEBEB ;
+
+}
+#info{
+  background-color: #202076;
+}
+
+img {
+  margin: auto;
+  display: block;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  }
+#name{
+  background-color: #5e5ee6;
+  text-align: center;
+  position: relative;
+}
+h3{
+  margin-top:16px;
+  color: #8b8bed;
+
+}
+h4{
+  margin-top: 16px;
+}
+.display-3{
+  margin-top: 16px;
+}
+.derecha{
+  font-weight:light;
+  color: #16c79e;
+}
+
+#encabezado{
+  text-decoration: underline ;
+  font-weight: 900;
+}
+#navbarToggleExternalContent{
+  position: fixed;
+  z-index: 100;
+  margin-top: 50px;
+}
+#nombre{
+  font-weight: 900;
+}
+.icono{
+  float: left!important;
+  background-color: #EBEBEB;
+  border-radius: 50%;
+  visibility: visible!important;
+}
+.titulo{
+  right: +100px;
+  padding: 10px;
+  background-color: #4344e5;
+  right: 100px;
+  border-radius: 10%;
+}
+#fila{
+  visibility: hidden;
+}
+#fila:hover{
+  visibility: visible;
+}
+.p-3{
+  width:200px;
+}
+.icono:hover{
+  background-color: #5e5ee6;
+}
+
+footer{
+  margin-top: 100px;
+  padding-top: 5px;
+  padding-bottom: 100px;
+  background-color: #5e5ee6;
+  
+}
+#infop{
+  display: none;
+}
+#hide{
+  margin-left: 5%;
+}
+#boton{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.pie{
+  font-size: small;
+  margin-bottom: 0px;
+}
+@media only screen and (min-width: 992px){
+  .pder{
+    font-size: 1vw;
+  }
+  #costado{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+} 
+@media only screen and (max-width: 400px) {
+  #cuerpo{
+    width: 100%;
+    padding: 0px;
+  }
+  #imagen{
+    width: 100%;
+    height: 300px;
+    border-radius: 0%!important;
+  }
+  #foto{
+    padding: 0px;
+  }
+  .derecha{
+    font-size: calc(1.3rem + .6vw);
+  }
+}
+@media only screen and (max-width: 992px){
+  #imagen{
+    width: 100%;
+    height: 300px;
+    border-radius: 0%!important;
+  }
+  #foto{
+    padding: 0px;
+  }
+  #costado{
+    padding-bottom: 50px;
+    padding-left: 16px;
+  }
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
